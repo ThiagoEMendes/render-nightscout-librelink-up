@@ -5,6 +5,7 @@
   "main": "dist/server.js",
   "scripts": {
     "build": "npx tsc",
+    "start-heroku": "node dist/server.js",
     "start": "node dist/server.js",
     "start-dev": "npx ts-node src/server.ts",
     "lint": "npx eslint . --fix",
